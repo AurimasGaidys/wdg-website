@@ -31,7 +31,7 @@ export const MainPlan = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-white w-full md:h-[567px] space-x-[20px] p-[20px] md:p-[0]">
-      <h2 className="text-[36px] leading-[45px] pb-[10px] text-[#2E2924]">
+      <h2 className="text-[36px] leading-[45px] pb-[10px] text-[#2E2924] ">
         Your adventure begins here….
       </h2>
       <div className="flex flex-col md:flex-row items-center">
@@ -45,7 +45,7 @@ export const MainPlan = () => {
               height={85}
               priority
             />
-            <h3 className="text-[36px] leading-[24px] pt-[20px] pb-[5px] text-[#2E2924]">
+            <h3 className="text-[36px] leading-[24px] pt-[20px] pb-[5px] text-[#2E2924] font-black ">
               {x.title}
             </h3>
             <p className="text-[18px] leading-[22px] text-[#2E2924] text-center">

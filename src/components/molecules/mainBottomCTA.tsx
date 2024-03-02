@@ -14,7 +14,7 @@ export const MainBottomCTA = () => {
         priority
       />
       <div className="flex flex-col w-[366px] items-center">
-        <h2 className="text-[36px] leading-[45px] text-[#2E2924] text-center pb-[20px]">
+        <h2 className="text-[36px] leading-[45px] text-[#2E2924] text-center pb-[20px] font-black">
           Get into the action with Ghosts
         </h2>
         <PrimaryButton>FIND A GAME NEAR YOU</PrimaryButton>
