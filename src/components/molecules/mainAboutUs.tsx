@@ -12,7 +12,7 @@ export const MainAboutUs = () => {
         priority
       />
       <div className="max-w-[366px] text-[#2E2924]">
-        <h2 className="text-[64px] leading-[72px] max-w-[362px]">
+        <h2 className="text-[36px] leading-[45px] max-w-[362px] pb-[10px]">
           Welcome to Why Does Games
         </h2>
         <p className="pb-[20px] text-[#2E2924]">

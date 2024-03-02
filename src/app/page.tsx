@@ -1,9 +1,10 @@
 import { PrimaryButton } from "@/components/atoms/button";
 import { MainAbout } from "@/components/molecules/mainAbout";
 import { MainAboutUs } from "@/components/molecules/mainAboutUs";
+import { MainBottomCTA } from "@/components/molecules/mainBottomCTA";
 import { MainFeatures } from "@/components/molecules/mainFeatures";
 import { MainHero } from "@/components/molecules/mainHero";
-import Image from "next/image";
+import { MainPlan } from "@/components/molecules/mainPlan";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <MainAbout />
       <MainAboutUs />
       <MainFeatures />
+      <MainPlan />
+      <MainBottomCTA />
     </main>
   );
 }
