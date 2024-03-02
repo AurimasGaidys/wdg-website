@@ -20,7 +20,7 @@ export const MainFeatures = () => {
   ];
 
   return (
-    <div className="flex bg-[#BDA064] w-full items-center justify-center h-[567px] space-x-[20px]">
+    <div className="flex flex-col md:flex-row bg-[#BDA064] w-full items-center justify-center md:h-[567px] space-x-[20px] p-[20px] md:p-[0]">
       {data.map((x) => (
         <FeatureCell title={x.title} description={x.description} />
       ))}

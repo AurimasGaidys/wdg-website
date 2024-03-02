@@ -30,13 +30,13 @@ export const MainPlan = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white w-full h-[567px] space-x-[20px]">
+    <div className="flex flex-col items-center justify-center bg-white w-full md:h-[567px] space-x-[20px] p-[20px] md:p-[0]">
       <h2 className="text-[36px] leading-[45px] pb-[10px] text-[#2E2924]">
         Your adventure begins here….
       </h2>
-      <div className="flex items-center">
+      <div className="flex flex-col md:flex-row items-center">
         {data.map((x) => (
-          <div className="flex flex-col items-center justify-start h-[100px] w-[170px]">
+          <div className="flex flex-col items-center justify-start h-[180px] w-[170px]">
             <Image
               className="pt-[20px] dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
               src={x.icon}

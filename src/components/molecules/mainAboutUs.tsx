@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const MainAboutUs = () => {
   return (
-    <div className="flex bg-white w-full items-center justify-center h-[567px]">
+    <div className="flex flex-col md:flex-row bg-white w-full items-center justify-center h-[567px]">
       <Image
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
         src="/next.svg"
