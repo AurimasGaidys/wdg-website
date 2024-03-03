@@ -74,7 +74,7 @@ export const Header = () => {
                 href="/public-events"
                 className="block py-2 px-3 text-[#2E2924] hover:text-[#BDA064] md:p-0"
               >
-                Publick events
+                Public events
               </a>
             </li>
             <li>
