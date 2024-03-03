@@ -7,13 +7,13 @@ export const FaqHero = () => {
         <h1 className="text-[36px] leading-[45px] max-w-[362px] font-black text-white">
           Frequently Asked Questions
         </h1>
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           At Why Does Games, our goal is to create experiences that encourage
           healthy outdoor exploration and story driven gameplay. Whether you
           play with a group or alone our quest is to insure that the experience
           is tailored for you.
         </p>
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           We’ve answered some of the most common questions about the game that
           new players might have below.
         </p>

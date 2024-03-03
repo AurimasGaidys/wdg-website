@@ -7,19 +7,19 @@ export const MainAbout = () => {
         A new way of spending time outdoors!
       </h1>
       <div className="max-w-[366px]">
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           Enjoy some fantastic ghostly fun with an interactive – and COVID safe
           – outdoor adventure.
         </p>
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           Ghosts are at war on the streets. Can YOU resolve their conflict and
           prevent them from overrunning the city?
         </p>
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           That’s the challenge – and with the user-friendly Ghosts app on your
           mobile, you’ll have a great time answering it!
         </p>
-        <p className="pb-[20px]">
+        <p className="pb-[20px] text-white">
           Explore the city playzone, search for and engage with a host of
           different ghosts… tackle the tasks you’re set and play minigames over
           a couple of action-packed hours. You’ll test your wits and skills,
