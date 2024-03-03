@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const PrivateGameHero = () => {
+export const PrivateEventHero = () => {
   return (
     <div className="flex flex-col md:flex-row bg-gradient-to-b from-[#13131B] to-[#494874] w-full items-center justify-center md:h-[567px] p-[40px]">
       <div className="max-w-[366px]">
