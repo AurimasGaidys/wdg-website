@@ -3,7 +3,7 @@ import { PrimaryButton } from "../atoms/button";
 export const MainAbout = () => {
   return (
     <div className="flex flex-col md:flex-row bg-gradient-to-b from-[#13131B] to-[#494874] w-full items-center justify-center md:h-[567px] p-[40px]">
-      <h1 className="text-[64px] leading-[72px] max-w-[362px] font-black text-white">
+      <h1 className="text-[64px] leading-[72px] max-w-[362px] font-black text-white pb-[20px]">
         A new way of spending time outdoors!
       </h1>
       <div className="max-w-[366px]">
