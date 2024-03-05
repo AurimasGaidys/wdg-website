@@ -15,7 +15,7 @@ export const Header = () => {
         >
           <Image
             className=""
-            src="/logo_hero.png"
+            src="/logo_main.png"
             alt="Why Does Games Ghosts logo"
             width={50}
             height={20}
