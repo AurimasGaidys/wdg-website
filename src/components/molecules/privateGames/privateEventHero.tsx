@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export const PrivateEventHero = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-gradient-to-b from-[#13131B] to-[#494874] w-full items-center justify-center md:h-[567px] p-[40px]">
-      <div className="max-w-[366px]">
-        <h1 className="text-[36px] leading-[45px] max-w-[362px] font-black text-white pb-[20px]">
+    <div className="relative flex flex-col md:flex-row bg-[#7da9d3] items-end w-full items-center justify-end h-[650px] md:h-[500px] ">
+      <div className="absolute left-[5%] top-[20px] max-w-[512px] text-center">
+        <h1 className="text-[80px] leading-[100px] font-black text-white pb-[20px]">
           Team building adventure
         </h1>
-        <p className="pb-[20px] text-white">
+        <p className="pb-[20px] text-white text-[40px] leading-[50px]">
           An outdoor ghost busting experience
         </p>
       </div>
       <Image
-        className=""
-        src="/Dominica 3 1.png"
+        className="w-full h-200px md:h-[500px] md:h-full object-cover object-center"
+        src="/private_header.jpeg"
         alt="Why Does Games Ghosts Logo"
-        width={400}
+        width={800}
         height={400}
         priority
       />

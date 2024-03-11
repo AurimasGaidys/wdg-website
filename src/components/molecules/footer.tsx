@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="flex items-center justify-between w-full space-y-[20px] md:h-[100px] bg-[#28292E] text-white p-[20px] flex-col md:flex-row">
-      <div className="flex space-x-[10px] items-center flex-col md:flex-row space-y-[20px]">
+      <div className="flex space-x-[10px] items-center md:items-baseline flex-col md:flex-row space-y-[20px]">
         <p className="text-[#BDA064]">© Why Does Games</p>
         <a
           href="/terms-and-conditions"

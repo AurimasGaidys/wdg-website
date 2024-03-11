@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const MainAboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-white w-full items-center justify-center h-[567px]">
+    <div className="flex flex-col md:flex-row bg-white w-full items-center justify-center h-[567px] space-x-[20px]">
       <Image
-        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        src="/next.svg"
+        className="relative"
+        src="/base_logo.jpeg"
         alt="Next.js Logo"
         width={300}
         height={200}

@@ -2,22 +2,20 @@ import Image from "next/image";
 
 export const PrivateEventAbout = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-white w-full items-center justify-center h-[567px]">
+    <div className="flex flex-col md:flex-row bg-white w-full items-center md:items-start justify-center h-full md:h-[567px] p-[20px]">
       <Image
-        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        src="/next.svg"
-        alt="Next.js Logo"
-        width={300}
-        height={200}
-        priority
+        className="relative coved-image w-[400px] md:h-[400px] m-[10] mr-[20px] object-cover object-center"
+        src="/private-1.jpeg"
+        alt="Players playing the game"
+        width={400}
+        height={400}
       />
       <div className="max-w-[366px] text-[#2E2924]">
         <h2 className="text-[36px] leading-[45px] max-w-[362px] pb-[10px] font-black">
           Story driven city exploration
         </h2>
         <p className="pb-[20px] text-[#2E2924]">
-          Finally a socially distanced team-building activity we have all been
-          looking for! Let WhyDoesGames create an epic event for your business
+          Let WhyDoesGames create an epic event for your business
           filled with challenges, adventures and ghosts.
         </p>
         <p className="pb-[20px] text-[#2E2924]">
