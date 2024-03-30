@@ -15,7 +15,7 @@ export const PrivateEventAbout = () => {
           Story driven city exploration
         </h2>
         <p className="pb-[20px] text-[#2E2924]">
-          Let WhyDoesGames create an epic event for your business
+          Let WhyDoesGames create an epic event for you
           filled with challenges, adventures and ghosts.
         </p>
         <p className="pb-[20px] text-[#2E2924]">
@@ -28,8 +28,7 @@ export const PrivateEventAbout = () => {
           virtual ghosts and save the world from total destruction!
         </p>
         <p className="pb-[20px] text-[#2E2924]">
-          Get in touch today for more information on our Covid-safe team
-          building events, and book a team day to remember.
+          Get in touch today for more information and book a adventure day to remember.
         </p>
       </div>
     </div>

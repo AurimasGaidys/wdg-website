@@ -4,6 +4,7 @@ import { MainBottomCTA } from "@/components/molecules/mainBottomCTA";
 import { PrivateEventAbout } from "@/components/molecules/privateGames/privateEventAbout";
 import { PrivateEventHero } from "@/components/molecules/privateGames/privateEventHero";
 import { PrivateEventNumbers } from "@/components/molecules/privateGames/privateEventNumbers";
+import { PrivateForm } from "@/components/molecules/privateGames/privateForm";
 import { Source_Sans_3 } from "next/font/google";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <PrivateEventHero />
       <PrivateEventAbout />
+      <PrivateForm />
       <PrivateEventNumbers />
       <MainBottomCTA />
       <Footer />

@@ -5,10 +5,10 @@ export const PrivateEventHero = () => {
     <div className="relative flex flex-col md:flex-row bg-[#7da9d3] items-end w-full items-center justify-end h-[650px] md:h-[500px] ">
       <div className="absolute left-[5%] top-[20px] max-w-[512px] text-center">
         <h1 className="text-[80px] leading-[100px] font-black text-white pb-[20px]">
-          Team building adventure
+          Private adventure
         </h1>
         <p className="pb-[20px] text-white text-[40px] leading-[50px]">
-          An outdoor ghost busting experience
+          An outdoor ghost busting experience near you
         </p>
       </div>
       <Image

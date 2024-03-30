@@ -58,7 +58,7 @@ export const Header = () => {
                 className="block py-2 px-3 text-[#2E2924] hover:text-[#BDA064] md:p-0"
                 aria-current="page"
               >
-                Home
+                Public events
               </a>
             </li>
             <li>
@@ -67,14 +67,6 @@ export const Header = () => {
                 className="block py-2 px-3 text-[#2E2924] hover:text-[#BDA064] md:p-0"
               >
                 Private event
-              </a>
-            </li>
-            <li>
-              <a
-                href="/public-events"
-                className="block py-2 px-3 text-[#2E2924] hover:text-[#BDA064] md:p-0"
-              >
-                Public events
               </a>
             </li>
             <li>
