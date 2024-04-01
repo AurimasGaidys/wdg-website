@@ -10,7 +10,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between ${sourceSans.className}`}
     >
       <Header />
-      <div>
+      <div className="">
         <h1>Privacy Policy for www.WhyDoesGames.com</h1>
         <p>
           At Why Does Games, accessible from www.WhyDoesGames.com, one of our
