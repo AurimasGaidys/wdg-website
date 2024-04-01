@@ -16,7 +16,7 @@ export const MainBottomCTA = () => {
       />
       <div className="flex flex-col w-[366px] items-center p-[20px]">
         <h2 className="text-[36px] leading-[45px] text-[#2E2924] text-center pb-[20px] font-black">
-          Get into the action with Ghosts
+          Would you like to try it yourself?
         </h2>
         <PrimaryButton>FIND A GAME NEAR YOU</PrimaryButton>
         <div className="h-[5vw]" />

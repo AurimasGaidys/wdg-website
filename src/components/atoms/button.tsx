@@ -19,7 +19,7 @@ export const PrimaryButton = ({ children, ...props }: ButtonProps) => {
         height={48}
         priority
       />
-      <div className="flex bg-[#b28c3b] h-[48px] items-center justify-center">{children}</div>
+      <div className="flex bg-[#b28c3b] h-[48px] items-center justify-center px-[20px]">{children}</div>
       <Image
         className=""
         src="/MygtukoTrikampiukai2.svg"
