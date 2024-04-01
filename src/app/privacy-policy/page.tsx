@@ -7,11 +7,13 @@ const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between ${sourceSans.className}`}
+      className={`flex bg-white min-h-screen flex-col items-center justify-between ${sourceSans.className}`}
     >
       <Header />
-      <div className="">
-        <h1>Privacy Policy for www.WhyDoesGames.com</h1>
+      <div className="max-w-[1140px] w-full px-[20px] py-[40px] text-[16px] leading-[24px] text-[#2E2924]">
+        <h1 className="text-[64px] leading-[45px] pb-[10px] font-black text-center pb-[40px]">
+          Privacy Policy for www.WhyDoesGames.com
+        </h1>
         <p>
           At Why Does Games, accessible from www.WhyDoesGames.com, one of our
           main priorities is the privacy of our visitors. This Privacy Policy
@@ -38,7 +40,7 @@ export default function Home() {
           </a>
           .
         </p>
-        <h2>Consent</h2>
+        <h2><strong>Consent</strong></h2>
         <p>
           By using our website, you hereby consent to our Privacy Policy and
           agree to its terms. For our Terms and Conditions, please visit the
@@ -52,7 +54,7 @@ export default function Home() {
           </a>
         </p>
         <p>&nbsp;</p>
-        <h2>Information we collect</h2>
+        <h2><strong>Information we collect</strong></h2>
         <p>
           The personal information that you are asked to provide, and the
           reasons why you are asked to provide it, will be made clear to you at
@@ -69,7 +71,7 @@ export default function Home() {
           information, including items such as name, company name, address,
           email address, and telephone number.
         </p>
-        <h2>How we use your information</h2>
+        <h2><strong>How we use your information</strong></h2>
         <p>We use the information we collect in various ways, including to:</p>
         <ul>
           <li>Provide, operate, and maintain our webste</li>
@@ -85,7 +87,7 @@ export default function Home() {
           <li>Send you emails</li>
           <li>Find and prevent fraud</li>
         </ul>
-        <h2>Log Files</h2>
+        <h2><strong>Log Files</strong></h2>
         <p>
           Why Does Games follows a standard procedure of using log files. These
           files log visitors when they visit websites. All hosting companies do
@@ -98,7 +100,7 @@ export default function Home() {
           tracking users’ movement on the website, and gathering demographic
           information.
         </p>
-        <h2>Cookies and Web Beacons</h2>
+        <h2><strong>Cookies and Web Beacons</strong></h2>
         <p>
           Like any other website, Why Does Games uses ‘cookies’. These cookies
           are used to store information including visitors’ preferences, and the
@@ -115,7 +117,7 @@ export default function Home() {
           </a>
           .
         </p>
-        <h2>Advertising Partners Privacy Policies</h2>
+        <h2><strong>Advertising Partners Privacy Policies</strong></h2>
         <p>
           You may consult this list to find the Privacy Policy for each of the
           advertising partners of Why Does Games.
@@ -133,7 +135,7 @@ export default function Home() {
           Note that Why Does Games has no access to or control over these
           cookies that are used by third-party advertisers.
         </p>
-        <h2>Third Party Privacy Policies</h2>
+        <h2><strong>Third Party Privacy Policies</strong></h2>
         <p>
           Why Does Games’s Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
@@ -147,7 +149,7 @@ export default function Home() {
           with specific web browsers, it can be found at the browsers’
           respective websites.
         </p>
-        <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+        <h2><strong>CCPA Privacy Rights (Do Not Sell My Personal Information)</strong></h2>
         <p>
           Under the CCPA, among other rights, California consumers have the
           right to:
@@ -169,7 +171,7 @@ export default function Home() {
           If you make a request, we have one month to respond to you. If you
           would like to exercise any of these rights, please contact us.
         </p>
-        <h2>GDPR Data Protection Rights</h2>
+        <h2><strong>GDPR Data Protection Rights</strong></h2>
         <p>
           We would like to make sure you are fully aware of all of your data
           protection rights. Every user is entitled to the following:
@@ -206,7 +208,7 @@ export default function Home() {
           If you make a request, we have one month to respond to you. If you
           would like to exercise any of these rights, please contact us.
         </p>
-        <h2>Children’s Information</h2>
+        <h2><strong>Children’s Information</strong></h2>
         <p>
           Another part of our priority is adding protection for children while
           using the internet. We encourage parents and guardians to observe,
