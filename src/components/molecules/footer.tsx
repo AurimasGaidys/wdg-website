@@ -69,7 +69,7 @@ export const Footer = () => {
             priority
           />
         </a>
-        <a href="https://www.facebook.com/#" rel="noreferrer">
+        <a href="mailto:vaidas.okunis@gmail.com" rel="noreferrer">
           <Image
             className=""
             src="/email_icon .webp"
