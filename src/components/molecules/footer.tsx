@@ -26,7 +26,7 @@ export const Footer = () => {
         height={12}
         priority
       />
-      <div className="flex space-x-[10px] items-center">
+      <div className="flex space-x-[10px] items-center md:w-[402px] md:justify-end">
         <a
           href="https://www.instagram.com/whydoesgames/"
           target="_blank"
