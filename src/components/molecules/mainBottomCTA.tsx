@@ -5,7 +5,7 @@ import { isMobileLayout } from "@/helpers/isMobile";
 
 export const MainBottomCTA = () => {
   return (
-    <div className="flex items-end justify-center bg-gradient-to-b from-[#ffffff] to-[#CACACA] w-full justify-between">
+    <div className="flex items-end justify-center bg-gradient-to-b from-[#ffffff] to-[#CACACA] w-full justify-between md:h-[25vw]">
       <Image
         className="-mt-[125px] max-w-[20%]"
         src="/Silverster 1.png"
@@ -19,6 +19,7 @@ export const MainBottomCTA = () => {
           Get into the action with Ghosts
         </h2>
         <PrimaryButton>FIND A GAME NEAR YOU</PrimaryButton>
+        <div className="h-[5vw]" />
       </div>
       <Image
         className="-mt-[125px] max-w-[20%]"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const FaqHero = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-gradient-to-b from-[#13131B] to-[#494874] w-full items-center justify-center md:h-[567px] p-[40px]">
+    <div className="flex flex-col md:flex-row bg-gradient-to-b from-[#13131B] to-[#494874] w-full items-center justify-center md:h-[533px] p-[40px] pb-[0px]">
       <div className="max-w-[366px]">
         <h1 className="text-[36px] leading-[45px] max-w-[362px] font-black text-white pb-[20px]">
           Frequently Asked Questions
@@ -20,10 +20,10 @@ export const FaqHero = () => {
       </div>
       <Image
         className=""
-        src="/Dominica 3 1.png"
+        src="/FAQ_Juno.png"
         alt="Why Does Games Ghosts Logo"
         width={400}
-        height={400}
+        height={420}
         priority
       />
     </div>

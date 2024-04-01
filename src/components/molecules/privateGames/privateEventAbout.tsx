@@ -4,7 +4,7 @@ export const PrivateEventAbout = () => {
   return (
     <div className="flex flex-col md:flex-row bg-white w-full items-center md:items-start justify-center h-full md:h-[567px] p-[20px]">
       <Image
-        className="relative coved-image w-[400px] md:h-[400px] m-[10] mr-[20px] object-cover object-center"
+        className="relative coved-image w-[400px] md:h-[400px] m-[10px] md:mr-[20px] object-cover object-center"
         src="/private-1.jpeg"
         alt="Players playing the game"
         width={400}
