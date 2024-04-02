@@ -23,9 +23,9 @@ export const MainAbout = () => {
           Explore the city playzone, search for and engage with a host of
           different ghosts… tackle the tasks you’re set and play minigames over
           a couple of action-packed hours. You’ll test your wits and skills,
-          have a great time on your own or with friends – and save the city too!{" "}
+          have a great time on your own or with friends – and save the city too!
         </p>
-        <a href="#">
+        <a href="events">
           <PrimaryButton>Find games near you</PrimaryButton>
         </a>
       </div>
