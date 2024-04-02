@@ -18,7 +18,7 @@ export const MainBottomCTA = () => {
         <h2 className="text-[36px] leading-[45px] text-[#2E2924] text-center pb-[20px] font-black">
           Would you like to try it yourself?
         </h2>
-        <PrimaryButton>FIND A GAME NEAR YOU</PrimaryButton>
+        <PrimaryButton>FIND AN EVENT</PrimaryButton>
         <div className="h-[5vw]" />
       </div>
       <Image

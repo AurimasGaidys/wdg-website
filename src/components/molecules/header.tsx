@@ -39,7 +39,7 @@ export const Header = () => {
             viewBox="0 0 17 14"
           >
             <path
-              stroke="currentColor"
+              stroke="#b28c3b"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
