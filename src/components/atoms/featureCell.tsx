@@ -16,8 +16,8 @@ export const FeatureCell = ({ title, description }: IFeatureCell) => {
         height={54}
         priority
       />
-      <h3 className="text-[18px] leading-[24px] pt-[20px] pb-[5px] font-black uppercase">{title}</h3>
-      <p className="text-[18px] leading-[22px] text-center">{description}</p>
+      <h3 className="text-[18px] text-white leading-[24px] pt-[20px] pb-[5px] font-black uppercase">{title}</h3>
+      <p className="text-[18px] text-white leading-[22px] text-center">{description}</p>
     </div>
   );
 };
