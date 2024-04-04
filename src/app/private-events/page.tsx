@@ -3,6 +3,7 @@ import { Header } from "@/components/molecules/header";
 import { MainBottomCTA } from "@/components/molecules/mainBottomCTA";
 import { PrivateEventAbout } from "@/components/molecules/privateGames/privateEventAbout";
 import { PrivateEventHero } from "@/components/molecules/privateGames/privateEventHero";
+import { PrivateEventHero2 } from "@/components/molecules/privateGames/privateEventHero2";
 import { PrivateEventNumbers } from "@/components/molecules/privateGames/privateEventNumbers";
 import { PrivateForm } from "@/components/molecules/privateGames/privateForm";
 import { Source_Sans_3 } from "next/font/google";
@@ -14,7 +15,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between ${sourceSans.className}`}
     >
       <Header />
-      <PrivateEventHero />
+      <PrivateEventHero2 />
       <PrivateEventAbout />
       <PrivateForm />
       <PrivateEventNumbers />
