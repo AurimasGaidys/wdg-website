@@ -1,5 +1,6 @@
 "use client";
 
+import { PrimaryButton } from "@/components/atoms/button";
 import { MyFormikTextareaField } from "@/components/atoms/textArea";
 import { Formik, Field, Form, FormikHelpers } from "formik";
 
@@ -60,16 +61,17 @@ const PrivateContactUs = () => {
 
               <p className="text-[18px] text-[#7B9A98] pb-[20px]">
                 This site is protected by reCAPTCHA and the Google 
-                <a href="/terms-and-conditions">Privacy Policy</a> and Terms of
-                Service apply.
+                <a className="text-[#b28c3b]" href="/privacy-policy">
+                  Privacy Policy
+                </a>
+                 and 
+                <a className="text-[#b28c3b]" href="/terms-and-conditions">
+                  Terms of Service
+                </a>
+                  apply.
               </p>
 
-              <button
-                className="bg-[#7B9A98] hover:bg-[#5D8E9B] w-[200px] h-[50px] mb-[20px]"
-                type="submit"
-              >
-                Send
-              </button>
+              <PrimaryButton type="submit">Send</PrimaryButton>
             </Form>
           </Formik>
         </div>

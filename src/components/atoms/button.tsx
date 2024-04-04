@@ -3,6 +3,7 @@ import Image from "next/image";
 interface ButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
+  type?: "button" | "submit" | "reset";
 }
 
 export const PrimaryButton = ({ children, ...props }: ButtonProps) => {
