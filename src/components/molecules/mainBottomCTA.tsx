@@ -1,7 +1,5 @@
 import Image from "next/image";
-
 import { PrimaryButton } from "../atoms/button";
-import { isMobileLayout } from "@/helpers/isMobile";
 
 export const MainBottomCTA = () => {
   return (
