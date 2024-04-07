@@ -7,8 +7,8 @@ export const PrivateEventHero2 = () => {
         className="w-full h-[300px] md:h-full object-cover object-center"
         src="/private-hero.webp"
         alt="Why Does Games Ghosts Logo"
-        width={800}
-        height={400}
+        width={1920}
+        height={622}
         priority
       />
     </div>
