@@ -11,7 +11,7 @@ export default function Home() {
     >
       <Header />
       <div className="max-w-[1140px] w-full px-[20px] py-[40px] text-[16px] leading-[24px] text-[#2E2924]">
-        <h1 className="text-[64px] leading-[45px] pb-[10px] font-black text-center pb-[40px]">
+        <h1 className="text-[64px] leading-[64px] pb-[10px] font-black text-center pb-[40px]">
           Terms and Conditions
         </h1>
         <p className="pb-[20px]">Welcome to Why Does Games!</p>
